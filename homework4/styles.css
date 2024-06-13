@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 16px;
+}
+@font-face {
+    font-family: GillSansReg;
+    src: url(GALLERY-PAGE/CSS/fonts/gillSans.otf);
+  }
+  @font-face {
+    font-family: GillSansBold;
+    src: url(GALLERY-PAGE/CSS/fonts/gillSansBold.otf);
+  }
+.nav-wrapper {
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    font-family: GillSansBold;
+  }
+  .nav-wrapper nav {
+    font-family: GillSansBold;
+    max-width: 980px;
+    height: 90px;
+    margin: 0 auto;
+    border-bottom: solid 2px black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .nav-wrapper nav .logo {
+    font-family: GillSansBold;
+    position: relative;
+    width: 92px;
+    height: 42px;
+    border: solid 2px black;
+    font-family: GillSansBold;
+    font-size: 35px;
+  }
+  .nav-wrapper nav .logo span {
+    font-family: GillSansBold;
+    position: absolute;
+    bottom: -5px;
+    color: black;
+  }
+  .nav-wrapper nav .links {
+    font-family: GillSansBold;
+    width: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    font-family: GillSansBold;
+    font-size: 20px;
+  }
+  .nav-wrapper nav .links a {
+    font-family: GillSansBold;
+    text-decoration: none;
+    color: black;
+  }
+  .nav-wrapper nav .links span {
+    font-family: GillSansBold;
+    color: #EE4367;
+  }
+  
+  @media only all and (max-width: 980px) {
+    .nav-wrapper nav {
+      padding: 0 30px;
+    }
+  }
+  @media only all and (max-width: 800px) {
+    .nav-wrapper nav {
+      padding: 0 10px;
+    }
+  }
+
+  .space {
+height: 100px;
+  }
+
+.hero {
+    font-family: GillSansBold;
+    max-width: 980px;
+    height: 378px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 209, 64, 0.5)), to(rgba(255, 209, 64, 0.5))), url(../images/1.png);
+    background-image: linear-gradient(to bottom, rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)), url(../GALLERY-PAGE/images/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            padding-left: 600px;
+            margin: 0 auto;
+            position: relative;
+}
+
+.history {
+    font-family: GillSansBold;
+    max-width: 980px;
+    min-height: 378px;
+    margin: -25px auto 0 auto;
+    position: relative;
+}
+
+.history .his-title {
+    font-family: GillSansBold;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: solid 2px black;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+.history p {
+    font-family: GillSansBold;
+margin-top: 50px;
+}
+
+footer {
+    font-family: GillSansBold;
+    max-width: 980px;
+    height: 150px;
+    margin: 0 auto; 
+}
+
+.wrapper {
+    font-family: GillSansBold;
+    max-width: 980px;
+    min-height: 200px;
+    margin: 0 auto;
+}
+
+.row {
+    font-family: GillSansBold;
+    display: flex;
+}
+.col {
+    font-family: GillSansBold;
+    flex: 1;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.foot-wrapper {
+    font-family: GillSansBold;
+    height: 465px;
+    width: 100%;
+    background-color: #ee4367;
+  }
+  .foot-wrapper footer {
+    font-family: GillSansBold;
+    height: 455px;
+    background-color: #ee4367;
+  }
+  .foot-wrapper footer .bop {
+    font-family: GillSansBold;
+    height: 50px;
+  }
+  .foot-wrapper footer .logo {
+    font-family: GillSansBold;
+    position: relative;
+    width: 92px;
+    height: 42px;
+    border: solid 2px #ffffff;
+    font-family: GillSansBold;
+    font-size: 35px;
+    margin: auto;
+  }
+  .foot-wrapper footer .logo span {
+    font-family: GillSansBold;
+    position: absolute;
+    bottom: -5px;
+    color: #ffffff;
+  }
+  .foot-wrapper footer .phone {
+    font-family: GillSansBold;
+    color: #ffffff;
+    font-family: GillSansBold;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+  }
+  .foot-wrapper footer .signup {
+    font-family: GillSansBold;
+    position: relative;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    margin: auto;
+  }
+  .foot-wrapper footer .signup input {
+    font-family: GillSansBold;
+    width: 529px;
+    height: 100%;
+    background-color: #f56b88;
+    border: none;
+    color: rgb(238, 67, 103);
+    font-size: 16px;
+    margin: auto;
+    margin-left: 500px;
+  }
+  .foot-wrapper footer .signup ::-webkit-input-placeholder {
+    color: rgb(238, 67, 103);
+    opacity: 1;
+    font-family: GillSansBold;
+  }
+  .foot-wrapper footer .signup ::-moz-placeholder {
+    color: rgb(238, 67, 103);
+    opacity: 1;
+    font-family: GillSansBold;
+  }
+  .foot-wrapper footer .signup :-ms-input-placeholder {
+    color: rgb(238, 67, 103);
+    opacity: 1;
+    font-family: GillSansBold;
+  }
+  .foot-wrapper footer .signup ::-ms-input-placeholder {
+    color: rgb(238, 67, 103);
+    opacity: 1;
+    font-family: GillSansBold;
+  }
+  .foot-wrapper footer .signup ::placeholder {
+    color: rgb(238, 67, 103);
+    opacity: 1;
+    font-family: GillSansBold;
+  }
+  .foot-wrapper footer .signup .button {
+    width: 167px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    font-family: GillSansBold;
+    color: #EE4367;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-right: 467px;
+  }
+  .foot-wrapper footer .social {
+    height: 31px;
+    width: 31px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #ffffff;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    float: left;
+    margin-left: 100px;
+  }
+  .foot-wrapper footer .copy {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #F7A1B3;
+    font-family: GillSansBold;
+    padding-top: 50px;
+  }
+  
+  @media only all and (max-width: 980px) {
+    .foot-wrapper footer {
+      padding: 0 30px;
+    }
+  }
